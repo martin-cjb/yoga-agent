@@ -36,7 +36,7 @@ def match_intent(message):
     
     # 地址
     if any(w in msg for w in ["地址", "在哪", "位置", "怎么走"]):
-        return "地址"
+        return "address"
     
     # 电话
     if any(w in msg for w in ["电话", "联系方式", "手机", "微信"]):
